@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+
+   
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    }
+    
+    .rating > input{
+     display:none;
+    }
+    
+    .rating > label {
+    position: relative;
+    width: 1.1em;
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFD700;
+    cursor: pointer;
+    }
+    
+    .rating > label::before{
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+    }
+    
+    .rating > label:hover:before,
+    .rating > label:hover ~ label:before {
+    opacity: 1 !important;
+    }
+    
+    .rating > input:checked ~ label:before{
+    opacity:1;
+    }
+    
+    .rating:hover > input:checked ~ label:before{ 
+    opacity: 0.4;
+     }
+     #feedback{
+        margin:2vw;
+        width:30%;
+        padding:4vw;
+        background:#fff;
+        display:flex;
+    justify-content: center;
+    box-shadow:0 0 10px rgba(0,0,0,.4);
+    margin-left: 30%;
+    flex-direction: column;
+    
+      justify-content: center;
+      text-align: center;
+     }
+     form{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     input{
+        display: block;
+        padding:12px;
+        border-radius: 8px;
+        border:none;
+        background: #dededd;
+        outline: none;
+        margin-top: 8px;
+        width:60%;
+        font-size: 14px;
+    }
+    .header {
+        color:#fff;
+        height:8vw;
+        background: linear-gradient(to right, #141e30, #243b55);
+        text-align: center;
+        padding:1vw;
+    }
+    .header h1{
+        text-align: center;
+        justify-content: center;
+        margin-top: 2.5vw;
+    }
+    #feedback form{
+        background: #eee;
+    }
+    #feedback form p{
+        font-size:medium;
+        margin:10px 0 1px 0;
+    }
+
+    #feedback form a{
+        margin-bottom: 20px;
+    margin-top: 15px;
+    background: linear-gradient(to right, #141e30, #243b55);
+    transition: .4s all;
+    height:1.5rem;
+    width:6rem;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    padding-top:5px;
+    border-radius:10%;
+    }
+    #feedback form a:hover{
+        background: transparent;
+        color:#000;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
+    }

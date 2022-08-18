@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+#navbar{
+    display:flex;
+    flex-wrap: wrap;
+    margin:2rem auto;
+    text-align: center;
+    justify-content: center;
+}
+.company-logo{
+    font-family: "Brush Script MT", cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    
+    text-align: center;
+    padding:0 2vw;
+}
+.nav a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    padding:0 2vw;
+   
+}
+
+.logo{
+    text-decoration: none;
+}
+.nav i{
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav i:hover{
+    color:black;
+    font-size:25px;
+    text-decoration: none;
+}
+.nav-left{
+    float: left;
+}
+.nav-right{
+    float:right;
+}
+
+/* all category */
+.text-center{
+    text-align: center;
+
+}
+.all-category{
+    margin-top: 10px;
+    margin-left: 26px;
+}
+.all-category button{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.all-category a{
+    background-color: #f5b500;
+}
+/* all category */
+.buttons{
+    /* border-radius:20px; */
+    color:black;
+}
+/* card content */
+.card{
+    box-shadow: 0 0 5px black;
+    height:30vw;
+ 
+    
+    
+}
+.card h5{
+    font-weight: bold;
+}
+.card p{
+    font-weight: bold;
+}
+.checked{
+    color: #f5b500;
+}
+#btn2{
+    text-align: center;
+    margin-top: 10px;
+}
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background-color: #f5b500;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: #f5b500;
+    box-shadow: 0 0 5px #f5b500,
+                0 0 20px #f5b500,
+                0 0 60px #f5b500,
+                0 0 150px #f5b500;
+}
+.card img{
+    height:16vw;
+   
+}
+.row{
+    margin:2vw 5vw;
+    display: flex;
+}
+.card-design{
+    margin-top:2rem;
+}
