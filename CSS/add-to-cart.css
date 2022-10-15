@@ -1,6 +1,6 @@
 *{
-    margin:0 auto;
-    padding:0 auto;
+    margin:0;
+    padding:0;
 }
 /* ---------- */
 #nav-bar
@@ -107,95 +107,7 @@
 	font-size:16px;
 }
 
-
-/* ------ */
-/* -----------------context----- */
-#context-box{
-    display: flex;
-    margin:2vw 1vw;
-}
-#hot-list{
-    padding:0 4vw;
-}
-#hot-list pre{
-    font-size:medium;
-}
-#hot-list hr{
-    height:1px;
-    background-color: black;
-    margin-top: -10px;
-}
-#main-text p{
-    text-align: center;
-    font-size: 20px;
-}
-#main-text hr{
-    width:80vw;
-    background-color: black;
-    margin-top: -10px;
-}
-.hot-list-box{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.hot-list-box:first-child{
-    margin:2vw 2vw 2vw 0vw;
-}
-.hot-list-box:first-child p{
-    line-height: 8px;
-    
-}
-.hot-list-box:first-child a{
-    text-decoration: none;
-    color:black;
-    font-size: 15px;
-    font-weight: 500;
-   
-}
-.hot-listbox {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 1vw 2vw 1vw 0vw;
-  
-}
-.hot-list-box:last-child i{
- font-size: 2rem;
-}
-#main-text-head{
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-.text-box{
-    display:flex;
-    flex-wrap: wrap;
-   width:60%;
-    
-}
-#text-heading{
-    font-family: Lucida Handwriting;
-    color:red;
-    font-size: 2vw;
-    text-align: center;
-    padding-top: 2vw;
-}
-.para{
-   
-    font-family:'Times New Roman', Times, serif;
-}
-.main-text-box{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.main-text-box img{
-    height:35vw;
-    width:25vw;
-    padding:1vw 0vw;
-}
-/* footer----------- */
+/* ------footer */
 .footer-container{
 	max-width: 1170px;
 	margin:auto;
@@ -267,4 +179,50 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+
+
+/* cart------------ */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background:#eee;
+}
+
+.size span {
+  font-size: 11px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 70px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+}
+
+.pay-button {
+  color: #fff;
+}
+
+.pay-button:hover {
+  color: #fff;
+}
+
+.pay-button:focus {
+  color: #fff;
+  box-shadow: none;
+}
+
+.text-grey {
+  color: #a39f9f;
+}
+
+.qty i {
+  font-size: 11px;
 }
